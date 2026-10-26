@@ -1,4 +1,8 @@
-# Combinational Logic in Verilog
+# FPGA Lab 1 — Combinational Logic
+
+**Verilog · Boolean Logic · Full Adder · Comparator**
+
+Former repository name: `FPGA1`.
 
 One-bit full adder and comparator exercises, illustrating Boolean equations and continuous assignments. 一位全加器与比较器基础实验。
 
@@ -21,7 +25,6 @@ iverilog -g2012 -s compare -o build/comparator.vvp rtl/comparator.v
 
 These commands check compilation only; this repository has no behavioral testbench. These are introductory exercises supporting the larger FPGA projects.
 
-
-[Full project portfolio](https://github.com/chengmiao2005/FPGAfinalproject/blob/main/docs/PORTFOLIO.md) · [Original-to-current file map](docs/FILE_MAP.md)
+[FPGA lab index](https://github.com/chengmiao2005/FPGA-Labs) · [Original-to-current file map](docs/FILE_MAP.md)
 
 [Validation record](docs/VALIDATION.md)
